@@ -1,0 +1,67 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.jumbotron{
+    background-color: #fff;
+}
+
+.notes{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/* http://creative-punch.net/2014/02/colorful-gradient-text-css3/ */
+.jumbotron h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6rem;
+    background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.col-form-label, .form-control{
+    font-size: 1.7em;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* Code Styles */
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+pre code {
+  font-size: 150%;
+  color: red;
+  word-break: normal;
+}
+
+.code-container {
+    text-align: center;
+    font-size: 2em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 1em 0;
+    padding: 2em;
+    background-color: #000000;
+}
+
+.invalid-feedback{
+    font-size: 1.5em;
+}
