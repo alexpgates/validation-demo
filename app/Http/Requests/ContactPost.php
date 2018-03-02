@@ -37,8 +37,8 @@ class ContactPost extends FormRequest
     public function messages()
     {
         return [
-            'title.required' => 'A title is required',
-            'body.required'  => 'A message is required',
+            'message.required' => 'A message is required.',
+            'message.min' => 'Your message is too short!',
         ];
     }
 }
